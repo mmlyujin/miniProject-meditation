@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+ul li {
+  list-style: none;
+}
+#meditationPage {
+  background: #a1ffce; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fdffed,
+    #eafff4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f8faec,
+    #ecf8ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+}
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: 0 30px;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+/*main*/
+#mainImageAndWriting {
+  display: flex;
+}
+#writing {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+}
+
+#writing h2 {
+  padding-left: 150px;
+  padding-top: 30px;
+  font-size: 45px;
+}
+
+#meditationImage {
+  margin-top: -60px;
+}
